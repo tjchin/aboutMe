@@ -1,0 +1,66 @@
+body {
+  /* Typography declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", san-serif;
+   background-image: url('https://cocodega.files.wordpress.com/2012/02/webpage-background-image.jpg');
+}
+.masthead {
+    padding: 6em 0;
+    background-image: url('http://41.media.tumblr.com/tumblr_m457urnhnE1qh5vnoo1_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #145C57;
+    border-radius: 5px 20px 5px;
+}
+.masthead-intro,
+.masthead-heading,
+.content-footer {
+    text-align: center;
+}
+.masthead-intro {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.content-footer,
+.introduction-section,
+.location-section,
+.question-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.social > li {
+    display: inline-block;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+  /* Typography declaration */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.introduction-section > h1,
+.location-section > h1,
+.question-section > h1 {
+  /* Typography declaration */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+section > h1 {
+  margin-top: 2em;
+}
+
